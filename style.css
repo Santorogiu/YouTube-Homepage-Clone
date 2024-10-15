@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  header {
+   display: flex;
+    gap: 24px;
+    padding: 12px;
+  }
+  
+  header svg {
+    height: 24px;
+    margin-right: auto;
+  }
+  
+  header ion-icon {
+   font-size: 22px;
+  }
+  
+  nav{
+    padding: 12px;
+    display: flex;
+    gap: 4px;
+  }
+  nav button {
+    border: 0;
+    padding: 8px 12px;
+    border-radius: 8px;
+    font-size: 12px;
+  
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  nav button:hover,
+  .active {
+    background-color: black;
+    color: white;
+  }
+  
+  /*Main onde coloco os videos */ 
+  main {
+    padding: 0 12px;
+  }
+  
+  img {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+  }
+  
+  .info-canal{
+    display: flex;
+    padding: 12px;
+    gap: 10px;
+  }
+  .avatar {
+    width: 32px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+  }
+  
+  .title-canal {
+    display: grid;
+  }
+  
+  .title-canal h6 {
+    font-size:12px;
+    font-weight: 400;
+  }
+  
+  .title-canal p{
+    font-size: 10px;
+    opacity: 0.7;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    display: flex;
+    padding: 8px;
+    width: 100%;
+    justify-content: space-around;
+    gap: 40px;
+    align-items: center;
+    
+  }
+  
+  footer div {
+    display: grid;
+    justify-items: center;
+    font-size: 14px;
+  
+  }
+  footer div ion-icon {
+   font-size: 18px;
+  }
+  footer img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
